@@ -14,7 +14,7 @@ apply plugin: 'application'
 apply from: 'cobertura.gradle'
 //apply plugin: 'distribution'
 
-mainClassName = "com.draumateymid.tictactoe.TicTacToeWeb"
+mainClassName = "com.draumateymid.tictactoe.TicTacToe"
 
 // In this section you declare where to find the dependencies of your project
 repositories {
@@ -50,7 +50,7 @@ dependencies {
 //add a manifest to the project
 jar {
 	manifest {
-		attributes("Main-Class": "com.draumateymid.tictactoe.TicTacToeWeb") 
+		attributes("Main-Class": "com.draumateymid.tictactoe.TicTacToe") 
 	}
 }
 
