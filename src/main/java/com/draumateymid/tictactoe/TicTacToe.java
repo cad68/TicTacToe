@@ -18,7 +18,7 @@ public class TicTacToe implements SparkApplication {
             port(Integer.valueOf(port));
         }
 		
-		TicTacToeWeb.init();
+		TicTacToe.init();
 	}
 	
 	@Override
