@@ -4,14 +4,14 @@ import spark.*;
 import static spark.Spark.*;
 import spark.servlet.SparkApplication;
 
-public class TicTacToeWeb implements SparkApplication {
+public class TicTacToe implements SparkApplication {
 	
 	private static GameController controller = new GameController();
 	
 	public static void main(String [] args)
 	{
 		staticFileLocation("/public");
-        SparkApplication TicTacToeWeb = new TicTacToeWeb();
+        SparkApplication TicTacToe = new TicTacToe();
 		
 		String port = System.getenv("PORT");
         if (port != null) {

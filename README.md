@@ -1,4 +1,4 @@
-[![Build Status](Draumateymid.png)](https://travis-ci.org/draumateymid/TicTacToe)
+[![Build Status](CadTicTacToe.png)](https://travis-ci.org/cad68/TicTacToe)
 Late-term Assignment
 
 Purpose
